@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="E:\Workspace\WEB_PROGRAMMING\ICONS\themify-icons\themify-icons.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  
+</head>
+<body>
+
+  <div class="overlay"></div>
+  <div id="background"></div>
+<div id="header">
+  <div id="navigation_left_container">
+  <div class="brand">snap</div>
+
+
+  <div id="navigation" class="features" tabindex="0">
+    Features
+<div id="menu_features" >
+ <div id="menu_nav">
+    <img src="./images/icons8-checklist-32.png" alt="" class="icons">
+    <p class="content">To do list</p> 
+  </div>
+    <div id="menu_nav"><img src="./images/icons8-calendar-64.png" alt="" class="icons"> <p class="content">Calendar</p> </div>
+    <div id="menu_nav"><img src="./images/icons8-bell-48.png" alt="" class="icons"> <p class="content">Reminders </p> </div>
+    <div id="menu_nav"><img src="./images/icons8-clock-48.png" alt="" class="icons"> <p class="content">Planning</p> </div>
+  </div>
+</div>
+  
+
+
+
+  <div id="navigation">Company</div>
+  <div id="navigation">Careers</div>
+  <div id="navigation">About</div>
+</div>
+
+  <div class="navigation_right_container">
+    <div id="login_register" class="login">Login</div>
+    <div id="login_register" class="register">Register</div>
+  </div>
+
+
+  <button id="menu_mobile_nav" onclick="openMobileMenu()"><i class="ti-menu"></i></button>
+</div>
+
+<div id="main">
+  <p class="thumbnail" styles="margin-top:50px">Make </p> 
+  <p class="thumbnail">remote work</p>
+  <div class="description">
+    <p>Get your team in sync, no matter your location.</p>
+   <p>Streamline processes, create team rituals, and</p>
+   <p>watch productivity soar</p>
+  </div>
+  <div class="learn_more">Learn more</div>
+  <div id="logo_container">
+    <div class="logo_brand"><img  src="./images/client-databiz.svg" alt=""></div>
+    <div class="logo_brand"><img src="./images/client-audiophile.svg" alt=""></div>
+    <div class="logo_brand"><img src="./images/client-meet.svg" alt=""></div>
+    <div class="logo_brand"><img src="./images/client-maker.svg" alt=""></div>
+  </div>
+</div>
+<div id="canva">
+  <div id="img_container">
+  <img src="./images/image-hero-desktop.png" alt="" class="img">
+</div>
+
+</div>
+
+<div id="menu_mobile_modal">
+  <div id="menu_container">
+  <button class="close_button" onclick="closeMobileMenu()"><i class="ti-close"></i></button>
+  <div class="navigation" id="mobile_features" tabindex="0">
+    Features
+    <div id="content_container">
+    <img src="./images/icons8-checklist-32.png" alt="" class="icons"><p class="content">To do list</p>    
+</div>
+
+<div id="content_container">   
+<img src="./images/icons8-calendar-64.png" alt="" class="icons"> <p class="content">Calendar</p> 
+</div>
+
+<div id="content_container">
+<img src="./images/icons8-bell-48.png" alt="" class="icons"> <p class="content">Reminders </p>
+</div>
+
+<div id="content_container">
+<img src="./images/icons8-clock-48.png" alt="" class="icons"> <p class="content">Planning</p> 
+</div> 
+
+</div>
+
+  <div class="navigation">Company</div>
+  <div class="navigation">Careers</div>
+  <div class="navigation">About</div>
+  <div class="login">Login</div>
+  <div class="register">Register</div>
+</div>
+</div>  
+
+
+ <script src="index.js"></script>
+</body>
+</html>
